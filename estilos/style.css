@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: "julius sans one";
+}
+
+body {
+    background-color: #EDE9E9;
+    
+}
+
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", serif;
+    font-weight:400;
+    font-style: normal;
+  }
+
+  
+  
+  .box {
+    font-family: "Julius Sans One";
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+   padding-top: 20px;
+   gap:200px;
+    
+    
+}
+
+#burguer {
+    background-color:#EDE9E9;
+    color:#C00F0F;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover{
+    background-color: #C00F0F;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar {
+    font-family: "julius sans one", serif;
+    list-style:none;
+    float:right;
+    
+    
+    }
+
+.navbar li{
+        position:relative;
+        float:left;
+        
+        }
+
+.navbar li a{
+    font-family: "Julius Sans One";
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;}
+
+.navbar li a:hover{
+    background: #C00F0F;
+    color: #FFFF;
+    box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+        }
+
+.navbar li  ul{
+            position:absolute;
+            top:25px;
+            left:0;
+            background-color:#fff;
+            display:none;
+            }
+
+.navbar li:hover ul {
+    display:block
+}
+
+.navbar li ul li {
+    display: block;
+    width: 150px;
+    border:#c0c0c0;
+    
+}
+
+            
+
+
+
+
+
+.Lígia {
+    
+    font-size: 20;
+    color: #C00F0F;
+    margin-left: 50px;
+    text-decoration: none;
+    
+    
+}
+
+.navbar > a{
+    font-family: "Julius Sans One";
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding-inline: 20px;
+    margin-left: 50px;
+    
+    
+}
+
+div a:hover {
+    background-color: #C00F0F;
+    transition-duration: 1.5s;
+    border-radius: 6px;
+    color: #f0f8ff;
+    
+}
+
+img {
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+img:hover{
+    scale: 1.3;
+    overflow: hidden;
+    transition-duration: 1.5s;
+}
+
+footer {
+    margin-top: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#dedede;
+}
+
+.Lua {
+    font-family: 'Courier New', Courier, monospace;
+    color: #C00F0F;
+    text-decoration: none;
+}
+
+.Lua:hover {
+    color: #fff;
+    background-color: #C00F0F;
+    border-radius: 5px;
+    transition-duration: 1.5s;
+}
+
+
+/*contato*/
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+    align-items: center;
+    
+    
+}
+
+button {
+   font-family: "Julius Sans One";
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 70px;
+    cursor: pointer;
+    color: #333;
+    background-color: rgb(179, 181, 181);
+    
+}
+
+button:hover {
+    background-color: #C00F0F;
+    color: #FFFF;
+    transition-duration: 1.5s;
+    box-shadow:0 3px 10px 5px #9f9f9f;
+}
+
+input#mensagem {
+    height: 200px;
+    width: 450px;
+    
+}
+
+input[type=text] {
+    border-radius: 5px;
+    height: 30px;
+    width: 450px;
+    border: none;
+}
+
+input[type=email] {
+    border-radius: 5px;
+    height: 30px;
+    width: 450px;
+    border: none;
+}
+
+.thanks{
+    width: 200px;
+    display: block;
+    margin: 80px auto;
+
+    
+}
+
+.texto-contato {
+    font-family: "Julius Sans One";
+    color: #C00F0F;
+    text-align: center;
+    padding-top: 20px;
+    
+}
