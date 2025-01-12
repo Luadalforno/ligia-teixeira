@@ -135,7 +135,7 @@ div a:hover {
 img {
     margin-top: 150px;
     margin-left: 100px;
-    border-radius: 50%;
+    
 }
 
 img:hover {
@@ -271,7 +271,13 @@ figcaption {
 
 /*media query*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .img-de-capa {
+        width: 80%;
+        height: 40vh;
+        text-align: center;
+    }
     #burguer {
         display: none;
         
@@ -279,14 +285,15 @@ figcaption {
     
     menu{
         display: block;
-        text-align: center;
+        text-align: right;
     }
 
-    menu > a {
+    li ul {
         
             display: inline-block;
-            justify-content: center;
+            justify-content: right;
             flex-wrap: wrap;
+            font-family: 50px;
         }
     }
 
@@ -299,6 +306,13 @@ figcaption {
 
 
 @media screen and (max-width: 600px){
+
+    .img-de-capa {
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        display: flex;
+    }
     .imagem {
         height: 300px;
         width: auto;
@@ -356,7 +370,7 @@ figcaption {
   }
 
   .dropdown-content li a:hover {
-    padding-inline: 35px 35px;
+    padding-inline:40px;
   }
   
   /* Change color of dropdown links on hover */
@@ -375,27 +389,40 @@ figcaption {
 
 
         
-    }    
+    }  
+    
+    @media screen and (max-width: 900px) {
+        .imagem{
+             height:300px;
+             width: auto;
+             border-radius: 10px;
+    }   
+    }
     
         
         
     
 
 
-@media screen and (max-width: 900px) {
-    .imagem{
-         height:300px;
-         width: auto;
-         border-radius: 10px;
-}   
-}
 
-@media screen and (min-width: 901px) and (max-width: 1536px) {
+
+@media screen and (min-width: 769px) and (max-width: 1536px) {
     .imagem {
         height: 500px;
         width: auto;
         border-radius: 10px;
         margin: auto;
+    }
+
+    div .img-de-capa {
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    #burguer {
+        display: none;
     }
 }
 
