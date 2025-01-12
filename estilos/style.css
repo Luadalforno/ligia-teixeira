@@ -145,7 +145,7 @@ img:hover {
 }
 
 footer {
-    margin-top: 250px;
+    margin-top: 220px;
     font-family: 'Courier New', Courier, monospace;
     background-color:#dedede;
 }
@@ -282,15 +282,16 @@ figcaption {
         display: none;
         
     }
-    
     menu{
         display: block;
         text-align: right;
     }
+    
+    
 
     li ul {
         
-            display: inline-block;
+            display: block;
             justify-content: right;
             flex-wrap: wrap;
             font-family: 50px;
@@ -312,6 +313,9 @@ figcaption {
         height: auto;
         justify-content: center;
         display: flex;
+        margin: auto;
+        
+       
     }
     .imagem {
         height: 300px;
@@ -332,31 +336,38 @@ figcaption {
         
 
   
+  
+  li ul {
+    color: #C00F0F;
+    z-index: 1;
+    
+  }
+
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
-    display: inline-block;
+    
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     
     position: absolute;
+    left: 80%;
+    top: 80%;
+    transform: translate(-1%, -83%);
     background-color: #f9f9f9;
     width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     height: auto;
+   
+    
     
     
     
     
   }
 
-  li ul {
-    color: #C00F0F;
-    z-index: 1;
-    
-  }
   
   /* Links inside the dropdown */
   .dropdown-content li a {
