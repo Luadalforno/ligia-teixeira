@@ -34,6 +34,11 @@ body {
     
 }
 
+.menu-hamburguer {
+    display: flex;
+    
+}
+
 #burguer {
     background-color:#EDE9E9;
     color:#C00F0F;
