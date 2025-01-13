@@ -57,11 +57,7 @@ body {
     
     }
 
-.navbar li{
-        position:relative;
-        float:left;
-        
-        }
+
 
 .navbar li a{
     font-family: "Julius Sans One";
@@ -78,57 +74,53 @@ body {
     text-shadow:0px 0px 5px #fff;
         }
 
+.navbar li{
+    position:relative;
+    float:left;
+                    
+                    }
+        
 .navbar li  ul{
-            position:absolute;
-            top:25px;
-            left:0;
-            background-color:#fff;
-            display:none;
-            }
-
-.navbar li:hover ul {
-    display:block
-}
-
-.navbar li ul li {
-    display: block;
-    width: 150px;
-    border:#c0c0c0;
-    
-}
-
-            
-
-
-
-
-
-.Lígia {
+    position:absolute;
+    top:15px;
+    left:0;
+    background-color:#fff;
+    display:none;
+                        }
+        
+        
+        
+.Lígia > h1 {
     
     font-size: 20;
     color: #C00F0F;
     margin-left: 50px;
-    text-decoration: none;
+    
     
     
 }
 
-.navbar > a {
-    font-family: "Julius Sans One";
-    color: rgb(0, 0, 0);
+.Lígia {
     text-decoration: none;
-    font-size: 20px;
-    padding-inline: 20px;
-    margin-left: 50px;
-    
+}
+
+.Lígia h1:hover {
+    background-color: #C00F0F;
+    color: #fff;
+    padding: 10px 10px;
+    transition-duration: 1.2s;
+    border-radius: 5px;
     
 }
+
+
 
 div a:hover {
     background-color: #C00F0F;
     transition-duration: 1.5s;
     border-radius: 6px;
     color: #f0f8ff;
+    padding: 10px 10px;
     
 }
 
@@ -147,7 +139,7 @@ img:hover {
 }
 
 footer {
-    margin-top: 220px;
+    margin-top: 350px;
     font-family: 'Courier New', Courier, monospace;
     background-color:#dedede;
 }
