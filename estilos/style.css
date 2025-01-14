@@ -24,6 +24,7 @@ body, html {
     color: #C00F0F;
     padding: 10px;
     display: block;
+    margin: auto;
     }
 
 #burguer:hover {
