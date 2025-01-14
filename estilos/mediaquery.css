@@ -32,42 +32,15 @@
         
     }
 
-    .navbar li {
-        display: inline-block;
-        font-family: 5px;
-        color: #fff;
-        
-    }
-
-    .navbar li a {
-        color:#fff;
-        font-size: 14px;
-        text-align: center;
-        
-        
-       
-  
-    }
+    
 
     
     
     
 
-    ul li{
-        position: relative;
-        display: none;
-    }
+   
 
-    ul li:hover ul{
-        display: block;
-    }
-
-    ul ul {
-        display: none;
-        position: absolute;
-        width: 150px;
-    }
-
+    
         
     }
 
