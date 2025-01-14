@@ -23,6 +23,7 @@ body, html {
     background-color: #EDE9E9;
     color: #C00F0F;
     padding: 10px;
+    display: block;
     }
 
 #burguer:hover {
@@ -53,6 +54,14 @@ body, html {
     -webkit-box-shadow: 0 3px 10px 0;
     text-shadow: 0px 0px 5px #fff;
     transition-duration: 1.3s;
+}
+.navbar li, ul { 
+        
+    list-style-type: none;
+    background-color: #C00F0F;
+    margin: auto;
+    
+    
 }
 
 ul li:hover ul{
@@ -96,6 +105,11 @@ img:hover {
     scale: 1.1;
     overflow: hidden;
     transition-duration: 1.5s;
+}
+.img-de-capa {
+    width: 80%;
+    height: 40vh;
+    text-align: justify;
 }
 
 footer {
