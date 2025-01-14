@@ -6,4 +6,4 @@ function clickMenu() {
     }
 }
 
-itens.style.display = 'none'
+itens.style.display = 'block'

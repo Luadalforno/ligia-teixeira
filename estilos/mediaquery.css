@@ -1,139 +1,78 @@
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
 
     .img-de-capa {
         width: 80%;
         height: 40vh;
-        text-align: center;
+        text-align: justify;
     }
+    
     #burguer {
-        display: none;
-        
-    }
-    menu{
         display: block;
-        text-align: right;
+        
+        
     }
-    
-    
 
-    li ul {
-        
-            display: block;
-            justify-content: right;
-            flex-wrap: wrap;
-            font-family: 50px;
-        }
-
-        
+    #burguer:hover {
+        color: white;
+        padding: 5px;
     }
 
     
 
-    
+    .navbar li, ul { 
+        
+        list-style-type: none;
+        background-color: #C00F0F;
+        margin: auto;
+        
+        
+    }
 
+    .navbar li {
+        display: inline-block;
+        font-family: 5px;
+        color: #fff;
+        
+    }
 
-
-
-
-@media screen and (max-width: 600px){
-
-    .img-de-capa {
-        width: 80%;
-        height: auto;
-        justify-content: center;
-        display: flex;
-        margin:auto;
+    .navbar li a {
+        color:#fff;
+        font-size: 14px;
+        text-align: center;
+        
         
        
-    }
-    .imagem {
-        height: 300px;
-        width: auto;
-        border-radius: 10px;
-        margin: auto;
-        flex-wrap: wrap;
+  
     }
 
-        #burguer {
-            display: block;
-           
-            
-        
-            
-        }
+    
+    
+    
+
+    ul li{
+        position: relative;
+        display: none;
+    }
+
+    ul li:hover ul{
+        display: block;
+    }
+
+    ul ul {
+        display: none;
+        position: absolute;
+        width: 150px;
+    }
 
         
+    }
 
-  
-  
-  li ul {
-    color: #C00F0F;
-    z-index: 1;
     
-  }
 
-   /* The container <div> - needed to position the dropdown content */
-   .dropdown {
-    position: relative;
-    display: block;
-    
-    
-    
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    
-    position: absolute;
-    
-    
-    transform: translate(-280%, -20%);
-    background-color: #f9f9f9;
-    
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-    
-    display: block;
-    box-sizing: border-box;
-    
-    
-    
-   
-    
-    
-    
-    
-    
-  }
-
- /* Links inside the dropdown */
- .dropdown-content li a {
-    text-align: center;
-    color: rgb(1, 1, 1);
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-    height: 40px;
-    
-    
-  }
-
-  #itens {
-    display: block;
-  }
-
-  
-  
-
-  .dropdown-content li a:hover {
-    padding-inline:40px;
-  }
-  
-  
-
-        
-    }  
-    
     @media screen and (max-width: 900px) {
         .imagem{
              height:300px;
@@ -164,9 +103,8 @@
         display: flex;
     }
 
-    #burguer {
-        display: none;
-    }
+    
+    
 }
 
 
