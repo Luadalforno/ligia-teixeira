@@ -198,15 +198,15 @@ footer {
 
 /*contato*/
 
-form {
-    font-family: 'Courier New', Courier, monospace;
+form, label {
+    font-family: "julius sans one";
     border-radius: 8px;
-    box-shadow: 0 1px 2px #ccc;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: block;
     margin-top: 70px;
-    align-items: center;
+    margin-left: 25px;
+    
+    
+    
     
     
 }
@@ -220,6 +220,8 @@ button {
     cursor: pointer;
     color: #333;
     background-color: rgb(179, 181, 181);
+    margin-top: 20px;
+    margin-left: 140px;
     
 }
 
@@ -231,12 +233,14 @@ button:hover {
 }
 
 input#mensagem {
+    font-family: 'Courier New', Courier, monospace;
     height: 200px;
     width: 450px;
     
 }
 
 input[type=text] {
+    font-family: 'Courier New', Courier, monospace;
     border-radius: 5px;
     height: 30px;
     width: 450px;
@@ -244,6 +248,7 @@ input[type=text] {
 }
 
 input[type=email] {
+    font-family: 'Courier New', Courier, monospace;
     border-radius: 5px;
     height: 30px;
     width: 450px;
