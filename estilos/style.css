@@ -22,7 +22,6 @@ body, html {
 #burguer {
     background-color: #EDE9E9;
     color: #C00F0F;
-    margin: auto;
     justify-content: center;
     
     
@@ -110,9 +109,12 @@ img:hover {
     transition-duration: 1.5s;
 }
 .img-de-capa {
-    width: 80%;
-    height: 40vh;
-    text-align: justify;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 footer {
