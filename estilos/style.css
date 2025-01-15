@@ -19,10 +19,10 @@ body, html {
     gap: 250px;
 }
 
-#burguer {
+div #burguer {
     background-color: #EDE9E9;
-    color: #C00F0F;
-    justify-content: center;
+    color: #c75d5d;
+    transform: translate(-100%, 10%);
     
     
     
