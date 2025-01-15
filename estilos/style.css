@@ -137,17 +137,24 @@ footer {
 }
 
 /* a artista*/
+
+.ligia-p-e-b {
+    width: 250px;
+   margin-left: 25%;
+}
  
 .box-biografia {
-    display: flex;
+    display: block;
+    
     
 }
 
 .biografia {
     text-align: justify;
-    margin-top: 250px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 30px;
+    
 }
 
 
