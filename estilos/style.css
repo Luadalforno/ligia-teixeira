@@ -22,9 +22,8 @@ body, html {
 #burguer {
     background-color: #EDE9E9;
     color: #C00F0F;
-    margin: 0 auto;
-    display: inline-block;
-    align-items: center;
+    margin: auto;
+    justify-content: center;
     
     
     
@@ -61,7 +60,7 @@ body, html {
 .navbar li, ul { 
         
     list-style-type: none;
-    background-color: #C00F0F;
+    background-color: #c75d5d;
     margin: auto;
     
     
