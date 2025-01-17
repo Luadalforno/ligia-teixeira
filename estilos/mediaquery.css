@@ -1,11 +1,46 @@
 @media screen and (min-width: 769px) and (max-width: 1536px) {
     
-    div .img-de-capa {
-        width: 60%;
-        height: auto;
-        justify-content: center;
-        display: flex;
+    
+    #burguer {
+        display:none;
     }
+
+    .navbar{
+        color: black;
+        display: inline-flex;
+        transform: translate(150%, -40%);
+        
+        
+    }
+
+    .navbar li a {
+        background-color: #EDE9E9;
+        color: black;
+        
+    }
+
+    .navbar li a:hover {
+        border-radius: 4px;
+        border: none;
+        
+            box-shadow: 4px 4px 10px 3px #b5b4b4eb;
+            
+            text-shadow: 0px 0px 5px #fff;
+            transition-duration: 1.3s;
+            background-color: #c75d5d;
+            color: #fff;
+        }
+    
+
+    .navbar li, ul {
+        background-color: #EDE9E9;
+       
+    }
+
+    ul ul {
+        position: absolute;
+    }
+    
 
     
     
