@@ -128,7 +128,8 @@ button {
     color: #333;
     background-color: rgb(179, 181, 181);
     margin-top: 20px;
-    margin-left: 140px;
+    justify-items: center;
+    margin-right: 150px;
     
 }
 
