@@ -37,6 +37,10 @@ div #burguer {
     
 }   
 
+#itens {
+    display: none;
+}
+
 .navbar li {
     display: block;
 }
@@ -216,11 +220,13 @@ footer {
     margin-left: 20%;
     
     
+    
 }
 
 .imagem-confinadas:hover {
     scale: 1.3;
     transition-duration: 1.5;
+    border: 6px double #c75d5d82;
 }
 
 

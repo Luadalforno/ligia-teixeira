@@ -5,6 +5,10 @@
         display:none;
     }
 
+    #itens {
+        display: block;
+    }
+
     .navbar{
         color: black;
         display: inline-flex;
